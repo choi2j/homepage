@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "SUIT";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "GmarketSans";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "GmarketSans";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 10rem;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: transform 100ms, color 500ms, background-color 500ms;
+    border-radius: 10px;
+
+    &:hover {
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    li {
+        a {
+            color: #000;
+            font-size: 2rem;
+            padding: 1rem;
+        }
+    }
+}
