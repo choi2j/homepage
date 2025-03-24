@@ -48,6 +48,10 @@ h1 {
     border-radius: 10px;
 }
 
+p {
+    width: fit-content;
+}
+
 ul {
     display: flex;
     flex-direction: row;
