@@ -16,6 +16,11 @@
     font-family: "GmarketSans";
 }
 
+*::selection {
+    color: #fff;
+    background-color: #000;
+}
+
 html,
 body {
     height: 100%;
