@@ -41,11 +41,6 @@ h1 {
     -webkit-user-select: none;
     transition: transform 100ms, color 500ms, background-color 500ms;
     border-radius: 10px;
-
-    &:hover {
-        color: #fff;
-        background-color: #000;
-    }
 }
 
 ul {
