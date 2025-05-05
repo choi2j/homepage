@@ -3,7 +3,7 @@ let title = document.getElementById("title");
 title.addEventListener("mousemove", (e) => {
     let x = e.offsetX;
     let y = e.offsetY;
-    let rotateY = (-1 / 12.5) * x + 20;
+    let rotateY = (-1 / 25) * x + 15;
     let rotateX = (-1 / 5) * y + 20;
     console.log(rotateX, rotateY);
     title.style = `transform : perspective(350px) rotateY(${rotateY}deg) rotateX(${rotateX}deg);`;
